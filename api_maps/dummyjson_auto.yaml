@@ -1,0 +1,14 @@
+site: dummyjson_auto
+base_url: https://dummyjson.com
+auth: null
+operations:
+  get_products:
+    name: get_products
+    method: GET
+    path: /products
+    execution_mode: http
+    allowed_query_params: null
+    allowed_headers: []
+    forward_body: false
+    cache_ttl_sec: 60
+    description: Auto-discovered GET /products

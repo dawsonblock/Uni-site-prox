@@ -1,0 +1,26 @@
+site: dummyjson
+base_url: https://dummyjson.com
+
+operations:
+  search_products:
+    name: search_products
+    method: GET
+    path: /products/search
+    execution_mode: http
+    cache_ttl_sec: 30
+    allowed_query_params:
+      - q
+      - limit
+      - skip
+      - select
+      - sortBy
+      - order
+    description: Search DummyJSON products
+
+  get_product:
+    name: get_product
+    method: GET
+    path: /products/{id}
+    execution_mode: http
+    cache_ttl_sec: 60
+    description: Get one product by ID

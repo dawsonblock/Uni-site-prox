@@ -1,0 +1,95 @@
+auth: null
+base_url: https://wiki.ebrains.eu
+operations:
+  get_bin_get_tourcode_tourjson:
+    allowed_headers: []
+    allowed_query_params:
+    - outputSyntax
+    - tourDoc
+    - xpage
+    cache_ttl_sec: 60
+    description: Auto-discovered GET /bin/get/TourCode/TourJson
+    execution_mode: http
+    forward_body: false
+    method: GET
+    name: get_bin_get_tourcode_tourjson
+    path: /bin/get/TourCode/TourJson
+  get_rest_livedata_sources_livetable_entries:
+    allowed_headers: []
+    allowed_query_params:
+    - limit
+    - namespace
+    - offset
+    - properties
+    - sort
+    - sourceParams.$doc
+    - sourceParams.className
+    - sourceParams.queryFilters
+    - sourceParams.template
+    - sourceParams.translationPrefix
+    - sourceParams.vm
+    - timestamp
+    cache_ttl_sec: 60
+    description: Auto-discovered GET /rest/liveData/sources/liveTable/entries
+    execution_mode: http
+    forward_body: false
+    method: GET
+    name: get_rest_livedata_sources_livetable_entries
+    path: /rest/liveData/sources/liveTable/entries
+  get_rest_wikis_xwiki_classes_xwiki_allattachments_properties_filesize_values:
+    allowed_headers: []
+    allowed_query_params:
+    - limit
+    cache_ttl_sec: 60
+    description: Auto-discovered GET /rest/wikis/xwiki/classes/XWiki.AllAttachments/properties/filesize/values
+    execution_mode: http
+    forward_body: false
+    method: GET
+    name: get_rest_wikis_xwiki_classes_xwiki_allattachments_properties_filesize_values
+    path: /rest/wikis/xwiki/classes/XWiki.AllAttachments/properties/filesize/values
+  get_rest_wikis_xwiki_classes_xwiki_allattachments_properties_mimetype_values:
+    allowed_headers: []
+    allowed_query_params:
+    - limit
+    cache_ttl_sec: 60
+    description: Auto-discovered GET /rest/wikis/xwiki/classes/XWiki.AllAttachments/properties/mimeType/values
+    execution_mode: http
+    forward_body: false
+    method: GET
+    name: get_rest_wikis_xwiki_classes_xwiki_allattachments_properties_mimetype_values
+    path: /rest/wikis/xwiki/classes/XWiki.AllAttachments/properties/mimeType/values
+  get_rest_wikis_xwiki_iconthemes_icons:
+    allowed_headers: []
+    allowed_query_params:
+    - name
+    cache_ttl_sec: 60
+    description: Auto-discovered GET /rest/wikis/xwiki/iconThemes/icons
+    execution_mode: http
+    forward_body: false
+    method: GET
+    name: get_rest_wikis_xwiki_iconthemes_icons
+    path: /rest/wikis/xwiki/iconThemes/icons
+  get_rest_wikis_xwiki_localization_translations:
+    allowed_headers: []
+    allowed_query_params:
+    - key
+    - locale
+    - prefix
+    cache_ttl_sec: 60
+    description: Auto-discovered GET /rest/wikis/xwiki/localization/translations
+    execution_mode: http
+    forward_body: false
+    method: GET
+    name: get_rest_wikis_xwiki_localization_translations
+    path: /rest/wikis/xwiki/localization/translations
+  post_bin_get_collabs_neuromorphic_brainscales_webhome:
+    allowed_headers: []
+    allowed_query_params: null
+    cache_ttl_sec: null
+    description: Auto-discovered POST /bin/get/Collabs/neuromorphic/BrainScaleS/WebHome
+    execution_mode: http
+    forward_body: true
+    method: POST
+    name: post_bin_get_collabs_neuromorphic_brainscales_webhome
+    path: /bin/get/Collabs/neuromorphic/BrainScaleS/WebHome
+site: post
